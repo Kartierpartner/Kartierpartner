@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="1dp" >
+
+    <TextView
+        android:id="@+id/title_add_formation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_add_formation"
+        android:paddingTop="14dp"
+        android:paddingBottom="8dp"
+        android:textColor="#41613f"
+        android:textSize="22dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/title_formation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/mask_formation_name" />
+
+        <EditText
+            android:id="@+id/formation_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/title_formation"
+            android:layout_below="@+id/title_formation"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/formation_name"
+            android:layout_below="@+id/formation_name"
+            android:layout_marginTop="32dp"
+            android:text="@string/save_button"
+            android:onClick="addNewFormation" />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

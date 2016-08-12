@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/overview_item"
+        android:icon="@drawable/icon_map"
+        android:title="@string/overview" />
+    <item
+        android:id="@+id/simple_logging_item"
+        android:icon="@drawable/icon_simple_log"
+        android:title="@string/outcrop" />
+    <item
+        android:id="@+id/measure_boundary_item"
+        android:icon="@drawable/icon_measure_boundary"
+        android:title="@string/boundary" />
+    <item
+        android:id="@+id/strike_dip_item"
+        android:icon="@drawable/icon_strike_dip"
+        android:title="@string/strikeDip" />
+</menu>

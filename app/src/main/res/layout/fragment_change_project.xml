@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+    tools:context=".ChangeProjectFragment">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:textSize="20dp"
+    android:text="@string/title_formation_database" />
+
+
+
+<ListView
+    android:id="@+id/listView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/textView"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="false">
+</ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_add_formation"
+        android:id="@+id/addButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true" />
+
+</RelativeLayout>

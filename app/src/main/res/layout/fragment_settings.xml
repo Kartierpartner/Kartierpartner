@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.entropia.kartierpartner.SettingsFragment">
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSaveSd"
+        android:id="@+id/btnexport"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="@string/descSaveSD"
+        android:id="@+id/saveToExternal"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#2e5635"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="@string/descSendEmail"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="10dp"
+        android:textColor="#2e5635"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="@string/descResetProject"
+        android:id="@+id/textView3"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="10dp"
+        android:textColor="#2e5635"
+        android:textSize="16dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEmail"
+        android:id="@+id/btnmail"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="15dp" />
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnReset"
+        android:id="@+id/btnreset"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp" />
+
+</FrameLayout>
